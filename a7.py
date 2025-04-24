@@ -1,4 +1,4 @@
-#ethan hui made this
+# ethan hui made this
 import math, os, pickle, re
 from typing import Tuple, List, Dict
 
@@ -307,11 +307,23 @@ if __name__ == "__main__":
     print("\nThe following should all be positive.")
     print(b.classify('I love computer science'))
     print(b.classify('this movie is fantastic'))
+    print("\nDIVIDER FOR POS")
+    print(b.classify('zummer break is almost here. I am super excited and I know its going to be the best'))
+    print(b.classify('winter is awesome'))
+    print(b.classify('i really like butterflies because they are very cool'))
     print("\nThe following should all be negative.")
     print(b.classify('rainy days are the worst'))
     print(b.classify('computer science is terrible'))
-
-    print()
+    print("\nDIVIDER FOR NEG")
+    print(b.classify('i hate summer homework a lot despite its benefits'))
+    print(b.classify('I am nervous that I wont do well on the AP tests. I have studied but I dont think Ill do that well'))
+    print(b.classify('i am very bored'))
+    print() 
     print(b.classify("intro to artificial intelligence is the best class"))
     print(b.classify("not the best way to do this"))
+
+    print(b.classify('I love these crocs! Not only are they great for use around the house, but they’re also great for every day use outside of the house as well!'))
+    print(b.classify('Both my kids love crocs. They are affordable and easy to slide on and off plus they are very comfortable. She outgrew her older pair and needed an upgrade. She loves the color.'))
+    print(b.classify('If youre visiting without a local guide, do not go on the boat ride. Youll never find the correct boat in time.'))
+    print(b.classify('Not for winter. Its extremely cold. In summer it would be nicer. Also dont book boat rides in winter as the cold is unpleasant.'))
     pass
